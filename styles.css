@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("reset-type.css");
+
+body {
+	font-family: Arial, serif;
+	background: #c8eca2;
+	color:#156f17;
+	padding-top: 9px;
+	padding-bottom: 30px;
+	font-size: 18px;
+}
+
+h2, article {
+	font-family: Arial, sans-serif;
+	margin-bottom: .5em;
+	font-weight: 400;
+}
+
+p {
+	margin-bottom: 1em;
+	line-height: 1.4em;
+}
+
+header nav {
+	background-color: #87ec24;
+	border-top: 50px solid #a6ed63;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	flex: 1;
+	border-right: 50px solid #a6ed63;
+}
+
+header nav ul li:last-of-type {
+	border-right: none;
+}
+
+header nav ul li a {
+	display: block;
+	color: #156f18;
+	font-family: Arial, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 28px;
+}
+
+header nav ul li a:hover {
+	color: #f7ff1d;
+}
+
+header {
+	background: url("file:///C:/Users/yurke/Desktop/Pom.jpg") no-repeat;
+	height: 600px;
+	position: relative;
+}
+
+.container {
+	position: relative;
+	width: 1020px;
+	margin: auto;
+	padding: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header{
+	flex: 100%;
+}
+
+nav {
+	flex: 1;
+	background-color: #87ec24;
+}
+
+article:first-of-type {
+	margin-right: 20px;
+}
+
+footer{
+	background: #156f17;
+	text-align: center;
+	margin-bottom: 150px;
+	padding: 40px 0;
+	flex: 100%;
+}
+
+footer, h1 {
+	color: #c8eca2;
+	text-align: center;
+}
+
+ 
+
+
